@@ -1,0 +1,20 @@
+{
+    "name": "jaugustin/propel-m2m-remove-object-behavior",
+    "description": "this behavior add 'remove' methods for Many to Many relation to be compatible with symfony2 form framework",
+    "keywords": [ "propel", "behavior", "many to many", "symfony2", "form" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémie Augustin",
+            "email": "jeremie.augustin@pixel-cookers.com",
+            "homepage": "http://www.pixel-cookers.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+        "propel/propel1": "1.6.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
